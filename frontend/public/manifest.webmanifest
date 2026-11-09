@@ -1,0 +1,17 @@
+{
+  "name": "Disability Support  Platform",
+  "short_name": "AccessAI",
+  "description": "AI-powered accessibility tools in one unified platform",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0d6e5e",
+  "icons": [
+    {
+      "src": "/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

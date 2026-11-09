@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+bun.lock
+__pycache__/
+*.pyc
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Build
+dist/
+build/
+*.zip
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Uploads
+uploads/*
+
+# Generated
+src/convex/_generated/
+.vite/

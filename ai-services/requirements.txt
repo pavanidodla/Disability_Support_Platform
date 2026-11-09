@@ -1,0 +1,28 @@
+# AccessAI - AI Services Requirements
+# Install with: pip install -r requirements.txt
+
+# Core
+flask>=3.0.0
+flask-cors>=4.0.0
+numpy>=1.24.0
+requests>=2.31.0
+
+# Computer Vision
+opencv-python>=4.8.0
+mediapipe>=0.10.0
+Pillow>=10.0.0
+
+# OCR
+pytesseract>=0.3.10
+
+# Speech Recognition
+SpeechRecognition>=3.10.0
+
+# Text-to-Speech
+pyttsx3>=2.90
+gTTS>=2.4.0
+
+# Optional: For better performance
+torch>=2.0.0
+ torchvision>=0.15.0
+ ultralytics>=8.0.0  # For YOLO
