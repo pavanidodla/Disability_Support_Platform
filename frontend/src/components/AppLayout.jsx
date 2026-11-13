@@ -48,7 +48,7 @@ function SidebarContent({ onNavClick }) {
         <div className="flex size-9 items-center justify-center rounded-xl bg-primary text-primary-foreground">
           <Accessibility className="size-5" />
         </div>
-        <span className="text-lg font-semibold tracking-tight">{t("AccessAI")}</span>
+        <span className="text-lg font-semibold tracking-tight">{t("Disability Support Platform")}</span>
       </div>
 
       <Separator />

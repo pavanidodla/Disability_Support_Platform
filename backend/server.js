@@ -31,6 +31,10 @@ const limiter = rateLimit({
   max: 100,
   standardHeaders: true,
   legacyHeaders: false,
+  // Saving taught signs is frequent while training; do not count it towards the limit
+  skip: (req) => req.path.startsWith("/sign-language/custom-signs"),
+  // JSON reply so the app can show the reason
+  message: { error: "Too many requests. Please wait a few minutes and try again." },
 });
 app.use("/api/", limiter);
 
